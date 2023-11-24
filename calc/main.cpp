@@ -3,6 +3,11 @@
 
 using namespace std;
 
+bool startTests(){
+//tests
+    return true;
+}
+
 int main(int argc, char** argv) {
 	unsigned char type;
 	bool flag=true;
@@ -40,6 +45,11 @@ int main(int argc, char** argv) {
 			case 'h':
 				help();
 			break;
+			case 'l':
+                {
+                    if(startTests() == true) cout << "tests pass" << endl;
+                    else cout << "tests failed" << endl;
+                }
 			case 'e':
 				flag=false;
 			break;
