@@ -3,11 +3,28 @@
 
 using namespace std;
 
+/**
+@mainpage Application for calculating numbers
+Tasks:
+- calculating numbers
+
+\authors
+Malishev Ivan
+\version
+1.1.1
+*/
+
 bool startTests(){
 //tests
     return true;
 }
 
+
+/**
+ @brief Application entry point
+ @details
+ The main function of the application
+ */
 int main(int argc, char** argv) {
 	unsigned char type;
 	bool flag=true;

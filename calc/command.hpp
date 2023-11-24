@@ -3,7 +3,15 @@
 #include <math.h>
 
 using namespace std;
+/**
+ @brief Finding the sum of two numbers
+ @details
+ A function
+ @param n1 float
+ @param n2 float
 
+ @return result additions of 2 numbers
+ */
 float parseAddition() {
 	float a=0, b=0;
 	cout << "first value: ";
